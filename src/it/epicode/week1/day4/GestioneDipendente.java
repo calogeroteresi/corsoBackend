@@ -30,6 +30,7 @@ public class GestioneDipendente {
         impiegato.stampaDatiDipendente();
         dirigente.stampaDatiDipendente();
 
+
         // Calcola la somma degli stipendi con 5 ore di straordinario per ciascun dipendente
         double sommaStipendi = Dipendente.calcolaPaga(operaio1, 5) +
                 Dipendente.calcolaPaga(operaio2, 5) +
