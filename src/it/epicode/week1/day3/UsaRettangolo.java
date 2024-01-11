@@ -6,7 +6,7 @@ public class UsaRettangolo {
         rettangolo.stampaRettangolo();
 
 
-        Rettangolo rettangolo1 = new Rettangolo(5,10);
+               Rettangolo rettangolo1 = new Rettangolo(5,10);
         rettangolo.stampaDueRettangoli(rettangolo, rettangolo1);
     }
 }

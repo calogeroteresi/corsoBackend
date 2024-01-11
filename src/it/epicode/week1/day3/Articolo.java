@@ -1,13 +1,13 @@
 package it.epicode.week1.day3;
 
 public class Articolo {
-    private string codiceArticolo;
-    private string descrizioneArticolo;
+    private String codiceArticolo;
+    private String descrizioneArticolo;
     private double prezzo;
     private int pezziDisponibili;
 
 
-    public Articolo (string cArt, string dArt, double pArt, int qArt){
+    public Articolo (String cArt, String dArt, double pArt, int qArt){
         this.codiceArticolo = cArt;
         this.descrizioneArticolo = dArt;
         this.prezzo = pArt;

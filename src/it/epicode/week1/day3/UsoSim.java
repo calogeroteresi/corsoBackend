@@ -1,6 +1,11 @@
 package it.epicode.week1.day3;
 
 public class UsoSim {
+    @Override
+    public String toString() {
+        return "UsoSim{}";
+    }
+
     public static void main(String[] args) {
         SIM sim = new SIM("123456789", 0.1);
         sim.setCreditoDisponibile(10.0);

@@ -30,7 +30,7 @@ public class Rettangolo {
         System.out.println("Perimetro: " + perimetro);
     }
 
-    // Metodo per stampare area e perimetro di due rettangoli
+      // Metodo per stampare area e perimetro di due rettangoli
     public void stampaDueRettangoli(Rettangolo rettangolo1, Rettangolo rettangolo2){
         System.out.println("Rettangolo 1:");
         rettangolo1.stampaRettangolo();
